@@ -3,7 +3,7 @@ using Common.Model.Settings;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddGraphQLServer();
 builder.Services.AddControllers();
 
 #region App Settings
@@ -13,9 +13,16 @@ builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSet
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
+app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapGraphQL();
 
 app.MapControllers();
 
