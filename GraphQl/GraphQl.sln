@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQl", "GraphQl\GraphQl.csproj", "{42B39B36-4795-4116-B9EC-633CECEA79D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{C319BBFE-0AE4-4A04-AC8E-0908EABB878D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{B623058F-D1AD-4A6E-84C4-648D6E392677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42B39B36-4795-4116-B9EC-633CECEA79D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B39B36-4795-4116-B9EC-633CECEA79D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B39B36-4795-4116-B9EC-633CECEA79D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B39B36-4795-4116-B9EC-633CECEA79D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C319BBFE-0AE4-4A04-AC8E-0908EABB878D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C319BBFE-0AE4-4A04-AC8E-0908EABB878D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C319BBFE-0AE4-4A04-AC8E-0908EABB878D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C319BBFE-0AE4-4A04-AC8E-0908EABB878D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B623058F-D1AD-4A6E-84C4-648D6E392677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B623058F-D1AD-4A6E-84C4-648D6E392677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B623058F-D1AD-4A6E-84C4-648D6E392677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B623058F-D1AD-4A6E-84C4-648D6E392677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AB92142-FFE3-47C0-8DB7-93C2635D29C2}
+	EndGlobalSection
+EndGlobal
